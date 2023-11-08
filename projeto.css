@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    margin-top: 0;
+    font-size: 18px;
+}
+header{
+    margin-top: 0;
+    background-color: blueviolet;
+}
+table{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+section.formulario{
+    margin-top: 2.5rem;
+    margin-bottom:2rem;
+    position: relative;
+    display: flex;
+}
+legend{
+    border: 2px solid;
+    border-color: blueviolet;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+fieldset{
+    background-color:whitesmoke;
+    border-color: blueviolet;
+    border-radius: 2.5%;
+}
+#nome, #sobrenome, #email{
+    background-color:whitesmoke;
+    width: 250px;
+    margin-bottom: 8px;
+    border: none;
+    border-bottom: 0.5px solid blueviolet;
+}
+textarea{
+    border-color: blueviolet;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: none;
+    width: 420px;
+    height: 140px;
+}
+.botao_resetar, .botao_enviar{
+    margin-left: 16%;
+    margin-top: 5%;
+    margin-bottom: 8px;
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: #7e72ae;
+    background-color: #8b7ebb;
+    color: white;
+    transition: background-color 0.3s;
+}
+.botao_enviar:hover{
+    
+    border-color: #7e72ae;
+    background-color: #978ac8;
+    color: white;
+}
+.botao_resetar:hover{
+    
+    border-color: #7e72ae;
+    background-color: #978ac8;
+    color: white;
+}

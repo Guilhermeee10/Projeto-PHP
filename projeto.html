@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="pt-br">
     <head>
         <title></title>
@@ -7,6 +7,7 @@
     </head>
     <body>
         <header>
+            <br>
             <h1>Nome da Empresa</h1>
             <nav>
                 <table class="tabela">
@@ -20,29 +21,41 @@
                 <hr>
             </nav>
         </header>
-        <section class="corpo_do_site">
-            <section class="formulario">
+        <div class="conteudo">
+            <section class="parte">
+                <h3> Sobre o Formulário de Feedback ao lado</h3>
+                <p>
+                    Estamos sempre empenhados em oferecer a melhor experiência possível aos nossos clientes. Com o objetivo de aprimorar nossos serviços, implementamos um formulário de feedback que permite a você, nosso valioso cliente, compartilhar suas opiniões conosco.
+                </p>
+                <p>
+                    Este formulário abrange uma variedade de áreas, desde reclamações e dúvidas até elogios e sugestões. Acreditamos que cada interação com nossos clientes é uma oportunidade de aprendizado e crescimento, e valorizamos imensamente suas contribuições.
+                </p>
+                <p>
+                    Agradecemos por dedicar seu tempo para nos ajudar a servir melhor você e todos os nossos clientes. Juntos, continuaremos a construir uma relação de confiança e excelência.
+                </p>
+            </section>
+            <section class="parte">
                     <form>
                         <fieldset>
                             <legend><b>Formulário de envio para a empresa</b></legend>
                                 <label for="nome">Nome: </label>
-                                <input id="nome" type="text" placeholder="Digite seu nome...">
+                                <input id="nome" type="text" placeholder="Digite seu nome..." required>
                                 <br>
                                 <label for="sobrenome">Sobrenome: </label>
                                 <input id="sobrenome" type="text" placeholder="Digite seu sobrenome...">
                                 <br>
                                 <label for="email">E-mail: </label>
-                                <input id="email" type="email" placeholder="Digite seu email aqui...">
+                                <input id="email" type="email" placeholder="Digite seu email aqui..." required>
                                 <br>
                                 <label>Informe seu sexo: </label>
                                 <br>
-                                <input type="radio" class="sexoa">
+                                <input type="radio" class="sexoa" name="sexo">
                                 <label>Masculino</label>
-                                <input type="radio" class="sexob">
+                                <input type="radio" class="sexob" name="sexo">
                                 <label>Feminino</label>
-                                <input type="radio" class="sexoc">
+                                <input type="radio" class="sexoc" name="sexo">
                                 <label>Outros</label>
-                                <input type="radio" class="sexod">
+                                <input type="radio" class="sexod" name="sexo">
                                 <label>Prefiro não informar</label>
                                 <br>
                                 <br>
@@ -58,18 +71,18 @@
                                 <br>
                                 <label for="caixa">Mensagem: </label>
                                 <br>
-                                <textarea id="caixa"placeholder="Digite sua mensagem..."></textarea>
+                                <textarea id="caixa" placeholder="Digite sua mensagem..." required></textarea>
                                 <br>
                                 <input type="reset" value="Resetar" class="botao_resetar">
                                 <input type="submit" value="Enviar" class="botao_enviar">
                         </fieldset>
                     </form>
             </section>
-            <section class="texto_auxiliar">
-            </section>
-        </section>
+        </div>
         <footer>
+            <br>
             <h1>Rodapé</h1>
+            <br>
         </footer>
     </body>
 </html>

@@ -1,24 +1,45 @@
 body{
-    margin: 0;
-    margin-top: 0;
-    font-size: 18px;
+    margin: 0; margin-top: 0;
+    font-size: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0 auto;
-    background-color: whitesmoke;
+    background-color: white;
+
+    /*paleta de cores  #A68568  #DBCEC2  #8C7D74  #26120A  #592F20*/
 }
 header{
     padding: 0 auto;
     margin-top: 0;
     color: white;
-    background: linear-gradient(to right, blueviolet, #978ac8);
+    background: linear-gradient(to right, grey, #8C7D74, #7a6d65,  #A68568, #592F20, #26120A);
     text-align: center;
+    border-bottom: solid 2rem;
+}
+#barra_pesquisar{
+    width: 600px; height: 40px;
+    margin-top: 1rem; margin-left: 1rem;
+    border-radius: 1rem; border-color: grey;
+    transition: background-color 0.3s
+}
+#barra_pesquisar:hover{
+    background-color: whitesmoke;
 }
 table{
     width: 100%;
-    margin-top: 40px;
-    margin-bottom: 2rem;
+    margin-top: 40px; margin-bottom: 2rem;
+    padding: 0 auto;
+}
+
+nav{
+    padding: 0 auto;
+    margin-bottom: 0;
+}
+#linha{
+    background: linear-gradient( to right, red, yellow, orange blue, purple);
 }
 .conteudo{
     display: flex;
+    margin-top: 0;
 }
 .parte{
     flex: 56;
@@ -27,66 +48,88 @@ table{
     text-align: justify;
   }
 legend{
-    border: 2px solid;
-    border-color: blueviolet;
-    border-radius: 5px;
+    border: 2px solid; border-color: #A68568; border-radius: 5px;
     font-size: 20px;
-    background-color: blueviolet;
-    color: white;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
+    background-color: #A68568; color: white;
+    margin-bottom: 1rem; margin-left: 1rem; padding-left: 5px;
 }
 fieldset{
     width: 85%;
-    background-color:whitesmoke;
-    border-color: blueviolet;
-    border-radius: 2.5%;
+    background-color:white;
+    border-color: #A68568; border-radius: 2.5%;
 }
 #nome, #sobrenome, #email{
-    background-color:whitesmoke;
-    width: 250px;
-    margin-bottom: 8px;
+    background-color:white;
+    width: 22rem;
+    margin-bottom: 0.5rem;
     border: none;
-    border-bottom: 0.5px solid blueviolet;
+    border-bottom: 0.5px solid #592F20;
 }
 textarea{
-    border-color: blueviolet;
-    border-radius: 3px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    border-color: #592F20; border-radius: 3px;
+    margin-top: 0.8rem; margin-bottom: 0.8rem;
+    width: 30rem; height: 9rem;
     resize: none;
-    width: 420px;
-    height: 140px;
 
 }
 .botao_resetar, .botao_enviar{
-    margin-left: 16%;
-    margin-top: 5%;
-    margin-bottom: 8px;
-    width: 110px;
-    height: 30px;
-    border-radius: 5px;
-    cursor: pointer;
-    border-color: #7e72ae;
-    background-color: #8b7ebb;
-    color: white;
+    margin-left: 16%; margin-top: 5%; margin-bottom: 8px;
+    width: 110px; height: 2rem;
+    border-radius: 5px; border-color: #A68568;
+    background-color: #A68568; color: white;
     transition: background-color 0.3s;
+    cursor: pointer;
 }
 .botao_enviar:hover{
-    
-    border-color: #7e72ae;
-    background-color: #978ac8;
-    color: white;
+    border-color: #7c6450;
+    background-color: #7c6450; color: white;
 }
 .botao_resetar:hover{
-    border-color: #7e72ae;
-    background-color: #978ac8;
-    color: white;
+    border-color: #7c6450;
+    background-color: #7c6450; color: white;
 }
 footer{
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to right, blueviolet, #978ac8);
+    padding: auto;
+    margin: auto;
+    border-top: 5px solid;
+    border-image-slice: 1;
+    background: linear-gradient(to right, #8C7D74, #7a6d65,  #A68568, #592F20, #26120A);
     text-align: center;
     color:white;
+    position: absolute;
+    width: 100%;
+}
+.pagamentos{
+    text-align:center;
+    font-size: 1.4rem;
+}
+.tabela_pagamento{
+    border-bottom: 1px inset white;
+}
+.img_logo{
+    display: flex;
+    margin-left: 3rem;
+    width: 10rem;
+    float: left;
+}
+.img_logo2{
+    align-items: center;
+    width: 8rem;
+}
+.rod{
+    background-image: url('caminho/do/seu/arquivo/imagem.jpg');
+    background-size: cover; /* Para cobrir todo o fundo */
+    background-position: center center; /* Posição central da imagem */
+    background-attachment: fixed; /* Fixa a imagem, para que o conteúdo role sobre ela */
+
+    /* Estilo do texto */
+    color: #ffffff; /* Cor do texto (branco no exemplo) */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; padding-bottom: 0; margin-bottom: 0 auto;
+    width: 100%;
+}
+.faleconosco{
+    display: inline;
+    position: flex;
+    width: 5rem;
 }

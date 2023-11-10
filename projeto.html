@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title></title>
+        <title>PHP's Chocolates</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="projeto.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="projeto.css">
     </head>
     <body>
         <header>
             <br>
-            <h1>Nome da Empresa</h1>
+            <img src="C:\Users\evang\Downloads\PHP_Chocolates__Logo_-removebg-preview.png" alt="logo" class="img_logo">
+            <h1>PHP's Chocolates</h1>
+            <div class="juncao">
+                <label for="barra_pesquisar" style="color: white;">
+                    Pesquisar  |
+                    <img src="C:\Users\evang\Downloads\icone-de-lupa-icone-branco-com-sombra-no-fundo-transparente-700-115077698-removebg-preview.png" style="width:1.5rem; margin-left: 5px; float:none;" alt="lupa">
+                </label>
+                <input type="search" id="barra_pesquisar" placeholder="Pesquise os produtos aqui..." name="barra_pesquisar">
+            </div>
             <nav>
-                <table class="tabela">
+                <table class="tabela_menu">
                     <tr>
                         <th>Página Inicial</th>
                         <th>Promoções</th>
@@ -18,12 +27,11 @@
                         <th>Saiba mais</th>
                     </tr>
                 </table>
-                <hr>
             </nav>
         </header>
         <div class="conteudo">
             <section class="parte">
-                <h3> Sobre o Formulário de Feedback ao lado</h3>
+                <h3 style="color: #592F20;">Sobre o Formulário de Feedback ao lado</h3>
                 <p>
                     Estamos sempre empenhados em oferecer a melhor experiência possível aos nossos clientes. Com o objetivo de aprimorar nossos serviços, implementamos um formulário de feedback que permite a você, nosso valioso cliente, compartilhar suas opiniões conosco.
                 </p>
@@ -33,6 +41,17 @@
                 <p>
                     Agradecemos por dedicar seu tempo para nos ajudar a servir melhor você e todos os nossos clientes. Juntos, continuaremos a construir uma relação de confiança e excelência.
                 </p>
+                <br>
+                <br>
+                <div>
+                    <h3 style="color: #592F20;">Fale conosco também por</h3>
+                    <p>
+                        Telefone: (83) 98563-8945
+                        <br>
+                        E-mail: phps_chocolates.oficial@gmail.com
+                        <br>
+                    </p>
+                </div>
             </section>
             <section class="parte">
                     <form>
@@ -61,10 +80,10 @@
                                 <br>
                                 <label>Selecione qual o assunto: </label>
                                 <select>
-                                    <option>Reclamações</option>
+                                    <option>Elogios</option>
                                     <option>Dúvidas</option>
                                     <option>Sugestões</option>
-                                    <option>Elogios</option>
+                                    <option>Reclamações</option>
                                     <option>Outros assuntos</option>
                                 </select>
                                 <br>
@@ -81,7 +100,42 @@
         </div>
         <footer>
             <br>
-            <h1>Rodapé</h1>
+            <img src="C:\Users\evang\Downloads\PHP_Chocolates__Logo_-removebg-preview.png" style="width: 10 rem; margin-bottom: 0; padding-bottom: 0;">
+            <div class="pagamento">
+                <table class="tabela_pagamento">
+                    <h3>Formas de pagamentos</h3>
+                    <tr>
+                        <th>
+                            <img src="https://cdn.icon-icons.com/icons2/674/PNG/512/Visa_icon-icons.com_60549.png" alt="visa" style="width: 55 px;">
+                        </th>
+                        <th>
+                            <img src="https://logodownload.org/wp-content/uploads/2020/02/pix-bc-logo-0.png" alt="pix" style="width: 55 px;">
+                        </th>
+                        <th>
+                            <img src="https://logodownload.org/wp-content/uploads/2015/03/hipercard-logo-1.png" alt="hipercard" style="width: 55 px;">
+                        </th>
+                        <th>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/MasterCard_early_1990s_logo.png" alt="mastercard" style="width: 55 px;">
+                        </th>
+                        <th>
+                            <img src="https://logospng.org/download/cartao-elo/logo-cartao-elo-2048.png" alt="elo" style="width: 55 px;">
+                        </th>
+                        <th>
+                            <img src="https://logosmarcas.net/wp-content/uploads/2020/04/PayPal-Logo.png" alt="paypal" style="width: 55 px;">
+                        </th>
+                        <th>
+                            <img src="https://images.vexels.com/media/users/3/143188/isolated/preview/5f44f3160a09b51b4fa4634ecdff62dd-icone-de-dinheiro.png" alt="dinheiro" style="width: 55px;">
+                        </th>
+                    </tr>
+                </table>
+           </div>
+            <div class="endereco">
+                <p>
+                    Endereço: Av. Valdemar Naziazeno, 815 - Ernesto Geisel, João Pessoa/PB
+                    <br>
+                    CEP: 58075-000
+                </p>
+            </div>
             <br>
         </footer>
     </body>

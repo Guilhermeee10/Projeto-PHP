@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif ;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    display: inline-block;
+    color:white;
+    text-decoration:none;
+    padding: 15px;
+}
+nav li a:hover{
+    background-color:#b8a39c;
+}
+.dropdown-menu-1{
+    position: absolute;
+    box-shadow: 2px black;
+    display: none;
+}
+
+.dropdown-menu-1 a{
+display: block;
+}
+.dropdown:hover .dropdown-menu-1{
+    display: block;
+}
+
+body{
+    margin: 0; margin-top: 0;
+    font-size: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 auto;
+    background-color: white;
+
+    /*paleta de cores  #A68568  #DBCEC2  #8C7D74  #26120A  #592F20*/
+}
+header{
+    padding: 0 auto;
+    margin-top: 0;
+    color: white;
+    background: linear-gradient(to right, grey, #8C7D74, #7a6d65,  #A68568, #592F20, #26120A);
+    text-align: center;
+    border-bottom: solid 2rem;
+}
+
+nav{
+    padding: 0 auto;
+    margin-bottom: 0;
+}
+#linha{
+    background: linear-gradient( to right, red, yellow, orange blue, purple);
+}
+.conteudo{
+    display: flex;
+    margin-top: 0;
+}
+.parte{
+    flex: 56;
+    margin: 10px;
+    padding: 50px;
+    text-align: justify;
+  }
+.itens{
+    flex: 56;
+    margin: 5px;
+    padding: 50px;
+    text-align: justify;
+  }
+legend{
+    border: 2px solid; border-color: #A68568; border-radius: 5px;
+    font-size: 20px;
+    background-color: #A68568; color: white;
+    margin-bottom: 1rem; margin-left: 1rem; padding-left: 5px;
+}
+fieldset{
+    width: 85%;
+    background-color:white;
+    border-color: #A68568; border-radius: 2.5%;
+
+}
+#nome, #sobrenome, #email{
+    background-color:white;
+    width: 22rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-bottom: 0.5px solid #592F20;
+}
+textarea{
+    border-color: #592F20; border-radius: 10px;
+    margin-top: 0.8rem; margin-bottom: 0.8rem; margin-left: 1rem; margin-right: 1rem;
+    width: 30rem; height: 9rem;
+    resize: none;
+
+}
+.botao_resetar, .botao_enviar{
+    margin-left: 16%; margin-top: 5%; margin-bottom: 8px;
+    width: 110px; height: 2rem;
+    border-radius: 5px; border-color: #A68568;
+    background-color: #A68568; color: white;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.botao_enviar:hover{
+    border-color: #7c6450;
+    background-color: #7c6450; color: white;
+}
+.botao_resetar:hover{
+    border-color: #7c6450;
+    background-color: #7c6450; color: white;
+}
+footer{
+    padding: auto;
+    margin: auto;
+    border-top: 5px solid;
+    border-image-slice: 1;
+    background: linear-gradient(to right, #8C7D74, #7a6d65,  #A68568, #592F20, #26120A);
+    text-align: center;
+    color:white;
+    position: absolute;
+    width: 100%;
+}
+.pagamentos{
+    text-align:center;
+    font-size: 1.4rem;
+}
+.tabela_pagamento{
+    border-bottom: 1px inset white;
+}
+.img_logo{
+    display: flex;
+    margin-left: 3rem;
+    width: 10rem;
+    float: left;
+}
+.img_logo2{
+    align-items: center;
+    width: 8rem;
+}
+.faleconosco{
+    display: inline;
+    position: flex;
+    width: 5rem;
+}
+
+
